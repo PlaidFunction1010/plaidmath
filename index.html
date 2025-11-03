@@ -3,32 +3,28 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>112 基隆女中｜教師甄試（數學）模擬練習 MVP</title>
-  <!-- KaTeX CDN for LaTeX rendering -->
+  <title>112 基隆女中｜教師甄試（數學）模擬練習｜全參數化示範</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css">
   <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
-  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"
-    onload="renderMathInElement(document.body,{delimiters:[{left:'$$',right:'$$',display:true},{left:'$',right:'$',display:false}]});"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"></script>
   <link rel="stylesheet" href="styles.css"/>
 </head>
 <body>
   <header>
-    <h1>112 基隆女中｜教師甄試（數學）<span class="badge">MVP</span></h1>
-    <p class="subtitle">填充題 12 題 ＋ 計算題 3 題（示範）｜支援 LaTeX、即時批改、錯題收藏、部分題型可「重抽數字」</p>
+    <h1>112 基隆女中｜教師甄試（數學）<span class="badge">全參數化示範</span></h1>
+    <p class="subtitle">支援 LaTeX、即時批改、錯題濾出；Q1 / Q2 / Q6 / Q8 / Q11 / Q12 可「重抽數字」並自動重算答案。</p>
     <div class="toolbar">
-      <button id="btn-randomize">重抽數字（示範題）</button>
+      <button id="btn-randomize">重抽數字（參數化題）</button>
       <button id="btn-review">只看未答對</button>
       <button id="btn-reset">全部重置</button>
       <span id="scoreboard">得分：0 / 0</span>
     </div>
   </header>
 
-  <main id="app">
-    <!-- Questions will mount here -->
-  </main>
+  <main id="app"></main>
 
   <footer>
-    <p>版本：v0.1（可上架 GitHub Pages）。本頁為 MVP：包含完整題面與正確答案核對；其中 2 題提供「可重抽數字、即時計算答案」示範（Q2、Q11）。</p>
+    <p>版本：v1.0（全參數化示範）。可直接部署至 GitHub Pages / Netlify。</p>
   </footer>
 
   <script src="questions.js"></script>
