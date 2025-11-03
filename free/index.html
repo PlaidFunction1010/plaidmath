@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>112 基隆女中｜教師甄試（數學）免費練習</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"></script>
+  <link rel="stylesheet" href="styles.css?v=free112"/>
+  <script>
+    (function boot(){
+      function ready(){ return document.readyState==='complete'||document.readyState==='interactive'; }
+      function katexReady(){ return typeof renderMathInElement === 'function'; }
+      function mount(){
+        if (!window.__APP_BOOTED && ready() && katexReady() && typeof window.__mountApp==='function'){
+          window.__APP_BOOTED = true; window.__mountApp();
+        } else { setTimeout(mount, 40); }
+      }
+      mount();
+    })();
+  </script>
+</head>
+<body>
+  <header>
+    <h1>112 基隆女中｜教師甄試（數學）<span class="badge">免費練習版</span></h1>
+    <p class="subtitle">此頁完全比照原題（固定數字）。支援 LaTeX 排版與即時批改。</p>
+    <div class="toolbar">
+      <a class="cta" id="pro-cta" href="../pro/index.html">
+        立即升級為 Pro 版本 → 支援參數化練習、自動批改、歷屆題庫整合
+      </a>
+      <span id="scoreboard">得分：0 / 0</span>
+    </div>
+  </header>
+
+  <main id="app"></main>
+
+  <footer>
+    <p>若要開通 Pro 版，點擊上方按鈕連到金流（綠界/藍新/LINE Pay），付款後將寄出「授權連結或金鑰」。</p>
+  </footer>
+
+  <script src="questions_free.js?v=free112"></script>
+</body>
+</html>
