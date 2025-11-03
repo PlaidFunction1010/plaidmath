@@ -6,12 +6,14 @@
   <title>112 基隆女中｜教師甄試（數學）模擬練習｜全參數化示範</title>
   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.css">
   <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/katex.min.js"></script>
-  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"></script>
+  <!-- Auto-render; when loaded, call app mount -->
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.9/dist/contrib/auto-render.min.js"
+          onload="window.__katexReady = true; if (window.__mountApp) window.__mountApp();"></script>
   <link rel="stylesheet" href="styles.css"/>
 </head>
 <body>
   <header>
-    <h1>112 基隆女中｜教師甄試（數學）<span class="badge">全參數化示範</span></h1>
+    <h1>112 基隆女中｜教師甄試（數學）<span class="badge">全參數化示範 v1.1</span></h1>
     <p class="subtitle">支援 LaTeX、即時批改、錯題濾出；Q1 / Q2 / Q6 / Q8 / Q11 / Q12 可「重抽數字」並自動重算答案。</p>
     <div class="toolbar">
       <button id="btn-randomize">重抽數字（參數化題）</button>
@@ -24,7 +26,7 @@
   <main id="app"></main>
 
   <footer>
-    <p>版本：v1.0（全參數化示範）。可直接部署至 GitHub Pages / Netlify。</p>
+    <p>版本：v1.1（修正 KaTeX 初始化與 Q2「相異質數」）。可直接部署至 GitHub Pages / Netlify。</p>
   </footer>
 
   <script src="questions.js"></script>
