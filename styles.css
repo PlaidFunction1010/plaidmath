@@ -1,0 +1,27 @@
+*{box-sizing:border-box}
+body{font-family: system-ui,-apple-system,'Noto Sans TC',Segoe UI,Roboto,Helvetica,Arial;
+  margin:0;background:#0b1020;color:#f6f7fb}
+header{padding:24px 16px;border-bottom:1px solid #1e2648;background:linear-gradient(180deg,#101735,#0b1020)}
+h1{margin:0 0 6px 0;font-size:24px}
+.subtitle{margin:4px 0 12px 0;color:#9fb0ff}
+.badge{font-size:12px;background:#2a44ff;color:#fff;padding:2px 6px;border-radius:6px;margin-left:6px}
+.toolbar{display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+button{background:#2236ff;border:0;color:#fff;padding:10px 14px;border-radius:10px;cursor:pointer}
+button:hover{filter:brightness(1.1)}
+button.secondary{background:#2f385c}
+#scoreboard{margin-left:auto;color:#88ffa3}
+main{max-width:980px;margin:18px auto;padding:0 16px 80px}
+.card{background:#141b3b;border:1px solid #293571;border-radius:14px;padding:16px 16px 10px;margin:14px 0}
+.card .meta{display:flex;gap:8px;align-items:center;margin-bottom:8px;color:#9fb0ff}
+.card .meta .tag{border:1px solid #3b4a8f;border-radius:999px;padding:2px 8px;font-size:12px}
+.qtext{line-height:1.8;font-size:16px}
+.answerRow{display:flex;gap:8px;align-items:center;margin-top:12px;flex-wrap:wrap}
+input.answer{flex:1;min-width:220px;padding:10px 12px;border-radius:10px;border:1px solid #3b4a8f;background:#0f1530;color:#fff}
+.btn-check{background:#2a44ff}
+.result{min-width:120px}
+.result.ok{color:#9ff5b3}
+.result.no{color:#ffb3b3}
+.explain{margin-top:10px;color:#aec2ff;font-size:14px;border-top:1px dashed #36457e;padding-top:8px}
+hr.sep{border:0;border-top:1px dashed #2d3a70;margin:16px 0}
+.admin{margin-top:8px;color:#8ecbff;font-size:13px}
+.katex{font-size:1.05em}
