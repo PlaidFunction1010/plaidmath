@@ -117,7 +117,7 @@ function build(){
   qs.push(fixedQ(10,'空間三直線…若 $L_4$ 與 $L_2,L_3$ 交，則 $a:b:c=\\underline{\\quad\\quad}\\).','4:5:4'));
   qs.push(fixedQ(11,'10 名女生圓桌隨機戴三色帽，每人都有至少一名鄰座與自己同色的機率為 \\(\\underline{\\quad\\quad}\\).','19/2187'));
   qs.push(fixedQ(12,'求 \\( \\left\\lfloor\\tfrac13\\right\\rfloor+\\left\\lfloor\\tfrac{2^2}{3}\\right\\rfloor+\\cdots+\\left\\lfloor\\tfrac{2^{2024}}{3}\\right\\rfloor \\) 的末兩位數。','98'));
-  qs.push(fixedQ(13,'求 $1+1$ = ? ','2'));
+  qs.push(fixedQ(13,'求 $1+1$ = \\(\\underline{\\quad\\quad}\\). ','2'));
   state.questions = qs;
 }
 
